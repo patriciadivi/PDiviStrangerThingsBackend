@@ -1,0 +1,9 @@
+build:
+  docker:
+    web: Dockerfile
+run:
+  web: node index.js
+
+
+  # build: Especifica o Dockerfile que será utilizado para construção da imagem
+  # run: Especifica os tipos de processos e os comandos a serem executados para cada um
